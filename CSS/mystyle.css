@@ -1,0 +1,174 @@
+
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0.5px;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #FBF8F5;
+    color: #493B38;
+}
+
+header {
+    background-color: #F1E5D8;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #765B55;
+    font-size: 2em;
+}
+
+h2 {
+    color: #A67C72;
+    font-size: 1.5em;
+}
+
+.tagline {
+    color: #927D77;
+    letter-spacing: 1px;
+}
+
+/* NAVIGATION */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: #765B55;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #C69F96;
+    text-decoration: underline;
+}
+
+/* CONTENT */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.hero img,
+.col-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.two-col {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.col-text {
+    flex: 2;
+}
+
+.col-image {
+    flex: 1;
+}
+
+/* LISTS */
+.programme-list,
+.facts-list {
+    padding-left: 22px;
+}
+
+li {
+    padding: 8px 0;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #F1E5D8;
+    color: #765B55;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #E8DAD4;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #F7F0EB;
+}
+
+/* FORMS */
+.form-group {
+    margin-bottom: 18px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E8DAD4;
+    font-family: Georgia, serif;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+button, #submit-btn {
+    padding: 10px 22px;
+    background-color: #765B55;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, #submit-btn:hover {
+    background-color: #A67C72;
+}
+
+/* FOOTER */
+footer {
+    background-color: #765B55;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 22px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+padding:{ 22px;
+    }
+
+    .two-col {
+        flex-direction: column;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
